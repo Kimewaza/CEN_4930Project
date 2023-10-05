@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+  <meta charset=utf-8>
+  <link rel="stylesheet" href="styles.css?v = Math.random()">
+  <script type="text/javascript" src="./javascripttutorialmodule.js" type="module"></script>
+  <!--
+  <script type="text/javascript" src="../index.js" type="module"></script>
+  -->
+</head>
+
+
+<body>
+<!--
+BODY PART OF THE HTML
+-->
+<button onclick="fn()">Button</button>
+<hr>
+<input type= "text" id = "new_text_input" value = "test">
+<button onclick="externalfunction()">Submit</button>
+<p id="new_result"></p>
+<!--Should just print out value that was put into the text box-->
+
+<hr>
+<hr2>Database writing and reading</hr2>
+<p></p>
+First Name: <input type="text" id="first_name" value="Enter text">
+<p></p>
+Last Name: <input type="text" id="last_name" value="Enter Text">
+<p></p>
+<button onclick = "writetodatabase()">Submit</button>
+<!--Writes to the database-->
+
+<script>
+function fn() {
+    jsfn()
+  }
+function externalfunction(){
+    jsexternalfunction()
+}
+function writetodatabase(){
+  jswritetodatabase()
+}
+</script>
+
+</body>
+</html>
